@@ -29,8 +29,7 @@ class Solution:
         
         current = 0 
 
-        # Stop moving digits the exact moment the Reversed Pile 
-        # becomes equal to or larger than the remaining Original Pile (x)
+        # Stop moving digits the exact moment the Reversed Pile becomes equal to or larger than the remaining Original Pile (x)
         while x > current:
             new_digit = x % 10
             current = current * 10 + new_digit
